@@ -1,7 +1,9 @@
+// if We want to use MongoDB Driver 
+
 import { MongoClient, Db } from "mongodb";
 
-const uri = process.env.DATABASE_URL || "mongodb://localhost:27017"; // MongoDB connection string
-const dbName = process.env.DB_NAME || "mydb"; // Database name
+const uri = process.env.DATABASE_URL || '' // MongoDB connection string
+const dbName = process.env.DB_NAME // Database name
 
 class Database {
   private static instance: Database;

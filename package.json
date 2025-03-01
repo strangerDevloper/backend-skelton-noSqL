@@ -14,9 +14,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "-": "^0.0.1",
-    "@types/cors": "^2.8.17",
-    "D": "^1.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "eslint-plugin-no-array-reduce": "^1.0.62",
@@ -24,6 +21,7 @@
     "mongodb": "^6.13.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@eslint/compat": "^1.2.6",
     "@types/express": "^5.0.0",
     "@types/node": "^22.13.4",
@@ -33,6 +31,7 @@
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.3",
+    "mongoose": "^8.11.0",
     "nodemon": "^3.1.9",
     "prettier": "^3.5.1",
     "ts-node": "^10.9.2",
