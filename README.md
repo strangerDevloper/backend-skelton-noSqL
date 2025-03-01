@@ -9,6 +9,7 @@ Before you begin to develop, make sure you have known something about these:
 1. [Node.js](http://nodejs.org/api/)
 2. [Express](https://expressjs.com/): node.js web application framework
 3. [MongoDB](https://www.mongodb.com/)
+   
 
 
 ### Folder structure
@@ -36,5 +37,4 @@ project-root/
 ├── pnpm-lock.yaml         # pnpm lock file
 ├── tsconfig.json          # TypeScript configuration
 └── README.md              # Project documentation
-
 
