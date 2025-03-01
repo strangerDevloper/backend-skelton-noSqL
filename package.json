@@ -15,7 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "-": "^0.0.1",
+    "@types/cors": "^2.8.17",
     "D": "^1.0.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "eslint-plugin-no-array-reduce": "^1.0.62",
     "express": "^4.21.2",
