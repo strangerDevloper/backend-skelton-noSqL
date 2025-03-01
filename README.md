@@ -13,6 +13,7 @@ Before you begin to develop, make sure you have known something about these:
 
 
 ### Folder structure
+```
 project-root/
 ├── node_modules/          # Node.js modules (ignored in version control)
 ├── src/                   # Source code
@@ -37,4 +38,23 @@ project-root/
 ├── pnpm-lock.yaml         # pnpm lock file
 ├── tsconfig.json          # TypeScript configuration
 └── README.md              # Project documentation
+```
+
+
+**Explanation of Key Directories:**
+
+* **`src/`**: Contains all the application's source code.
+* **`src/config/`**: Stores configuration files, such as database connection details and environment settings.
+* **`src/controllers/`**: Handles request logic and interacts with services/models.
+* **`src/models/`**: Defines data models using Mongoose schemas for MongoDB.
+* **`src/routes/`**: Defines API endpoints and routes requests to controllers.
+* **`src/services/`**: (Optional) Contains business logic for complex applications.
+* **`src/types/`**: Defines custom TypeScript types and interfaces.
+* **`src/utils/`**: Stores utility functions, helpers, and validators.
+* **`src/index.ts`**: The server's entry point, which starts the application.
+* **`.env`**: Stores environment variables (should not be committed to version control).
+* **`node_modules/`**: Contains installed Node.js packages (ignored in `.gitignore`).
+* **`package.json`**: Manages project dependencies and scripts.
+* **`pnpm-lock.yaml`**: Ensures consistent dependency versions.
+* **`tsconfig.json`**: Configures the TypeScript compiler.
 
